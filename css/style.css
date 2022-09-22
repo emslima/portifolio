@@ -16,7 +16,7 @@ header{
 nav{
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 50%;
     margin: auto;
     padding: 40px 0px 40px 0px;
     justify-content: space-between;
@@ -26,29 +26,93 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 li{
     padding: 20px;
 }
+img{
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    align-items: flex-start;
+
+}
 .about{
     font-size: 1.3rem;
     line-height: 35px;
-    width: 70%;
+    width: 50%;
     margin: auto;
     box-sizing: border-box;
     text-align: justify;
 }
-.projects{
-    background-color: beige;
-    width: 70%;
-    margin: auto;
-}
-.highlight {
-    background-color: #f4c024c9;
+/* .highlight {
+    background-color: #ff9500;
     color: #ffffff;
     border-radius: 10px;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    padding: 0 5px 0 5px;
     padding: 2px 10px 3px 10px;
-  }
+} */
+a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 2px 10px 3px 10px;
+    
+}
+a:hover {
+    background-color: #ff9d00;
+    color: #fff;
+    padding: 2px 10px 3px 10px;
+    border-radius: 6px;
+    transition: .4s ease-in-out;
+}
+.htmls{
+    background: rgb(221,75,37);
+    background: linear-gradient(90deg, rgba(221,75,37,1) 0%, rgba(241,101,36,1) 59%);
+    color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 2px 10px 3px 10px;
+}
+.csss{
+    background: rgb(221,75,37);
+    background: linear-gradient(90deg, #254995 0%, #295da8 59%);
+    color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 2px 10px 3px 10px;
+}
+.jss{
+    background: rgb(221,75,37);
+    background: linear-gradient(90deg, #f4cb0b 0%, #ffdf00 59%);
+    color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding: 2px 10px 3px 10px;
+}
+.projects{
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+}
+.projectOne, .projectTwo{
+    display: flex;
+    padding: 0px;
+}
+.projectOne img{
+    height: 200px;
+}
+.projectOne h1{
+    margin: auto;
+}
+.texts{
+    margin: auto;
+}
